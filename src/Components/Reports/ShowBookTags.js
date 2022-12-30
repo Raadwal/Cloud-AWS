@@ -7,7 +7,7 @@ import reportsClasses from "./Reports.module.css";
 
 function ShowBookTags() {
   const [tags, getTags] = useState([]);
-  const url = "http://13.41.241.147:3000/book";
+  const url = "http://13.41.241.147/book";
 
   const bookIdInputRef = useRef();
 

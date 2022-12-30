@@ -6,7 +6,7 @@ import classes from "./AddForm.module.css";
 
 function AddUserForm() {
     const [response, setResponse] = useState("");
-    const url = "http://13.41.241.147:3000/user";
+    const url = "http://13.41.241.147/user";
   
     const nameInputRef = useRef();
     const surnameCodeInputRef = useRef();

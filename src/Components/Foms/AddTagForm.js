@@ -6,7 +6,7 @@ import classes from "./AddForm.module.css";
 
 function AddTagForm() {
     const [response, setResponse] = useState("");
-    const url = "http://13.41.241.147:3000/tag";
+    const url = "http://13.41.241.147/tag";
   
     const nameInputRef = useRef();;
   

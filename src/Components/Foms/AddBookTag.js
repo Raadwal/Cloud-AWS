@@ -6,7 +6,7 @@ import classes from "./AddForm.module.css";
 
 function AddBookTag() {
     const [response, setResponse] = useState("");
-    const url = "http://13.41.241.147:3000/book";
+    const url = "http://13.41.241.147/book";
   
     const bookIdInputRef = useRef();
     const tagIdInputRef = useRef();
