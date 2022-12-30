@@ -7,7 +7,7 @@ import reportsClasses from "./Reports.module.css";
 
 function ShowAuthorBooks() {
   const [books, getBooks] = useState([]);
-  const url = "http://127.0.0.1:3000/author";
+  const url = "http://13.41.241.147:3000/author";
 
   const authorIdInputRef = useRef();
 

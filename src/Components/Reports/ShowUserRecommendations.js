@@ -6,7 +6,7 @@ import reportsClasses from "./Reports.module.css";
 
 function ShowUserRecommendations() {
   const [recommendations, getRecommendations] = useState([]);
-  const url = "http://127.0.0.1:3000/user";
+  const url = "http://13.41.241.147:3000user";
 
   const userIdInputRef = useRef();
 
